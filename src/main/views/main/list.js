@@ -60,8 +60,26 @@ $(function() {
 					sortable: "true"
 				},
 				{
-					field: "cash_flow_from_operating_activities",
-					title: "所属类别",
+					field: "net_cash_flow_from_operating_activities",
+					title: "经营业务现金净额",
+					align: "center",
+					valign: "middle",
+					sortable: "true"
+				},{
+					field: "net_cash_flow_from_investment_activities",
+					title: "投资活动现金净额",
+					align: "center",
+					valign: "middle",
+					sortable: "true"
+				},{
+					field: "net_cash_flow_from_financing_activities",
+					title: "融资活动现金净额",
+					align: "center",
+					valign: "middle",
+					sortable: "true"
+				},{
+					field: "net_increase_in_cash_and_cash_equivalents",
+					title: "现金及现金等价物净增加额",
 					align: "center",
 					valign: "middle",
 					sortable: "true"
